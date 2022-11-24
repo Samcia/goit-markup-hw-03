@@ -1,0 +1,235 @@
+:root {
+  --color: #212121;
+  --logo-color: #2196f3;
+  --logo-ftr: #ffffff;
+  --background: #e5e5e5;
+  --paragraph-color: #757575;
+  --team-background-color: #f5f4fa;
+  --ftr-background: #2f303a;
+  --border-color: #eeeeee;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color);
+}
+.main-header {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.header-links {
+  text-decoration: none;
+  color: var(--color);
+}
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.12;
+  text-decoration: none;
+  color: var(--color);
+}
+
+.logo-web {
+  color: var(--logo-color);
+}
+
+.social-links {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+}
+.social-links .link {
+  color: var(--color);
+  text-decoration: none;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--color);
+  list-style: none;
+}
+.social-links .link:hover,
+.social-links .link:focus {
+  color: var(--logo-color);
+}
+
+.social-links .link:active {
+  color: var(--logo-color);
+}
+
+.button-bg {
+  background-color: var(--ftr-background);
+  width: 100%;
+  height: 300px;
+  left: 3px;
+}
+.header1-style {
+  text-align: center;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  background-color: var(--ftr-background);
+  color: var(--logo-ftr);
+  line-height: 1.36;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-width: 1600px;
+  border-height: 600px;
+  padding: 50px;
+}
+.order {
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 0 auto;
+}
+.order:hover,
+.order:focus {
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
+}
+.order:active {
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
+}
+.list-items {
+  text-decoration: none;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  display: inline-flex;
+}
+.parent-style {
+  display: flex;
+}
+.solutions-desc {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+}
+.header3-style {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  display: flex;
+}
+.paragraph-desc {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--paragraph-color);
+  display: flex;
+  text-align: center;
+}
+
+.header2-style {
+  font-size: 36px;
+  color: var(--color);
+  text-align: center;
+}
+.work-area {
+  text-decoration: none;
+  justify-content: center;
+  list-style: none;
+  display: inline-flex;
+  padding: 30px;
+  text-align: center;
+}
+
+.team-style {
+  background-color: var(--team-background-color);
+  width: 1600px;
+}
+
+.team-cards {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  line-height: 1.5;
+  display: inline;
+}
+.ftr-style {
+  background-color: var(--ftr-background);
+  text-decoration: none;
+  margin-top: 94px;
+
+  max-width: 1600px;
+}
+.logo-ftr {
+  color: var(--logo-ftr);
+  text-decoration: none;
+  font-size: 36px;
+  font-family: "Raleway";
+  margin-top: 94px;
+  margin-left: 215px;
+}
+.ftr-links {
+  color: var(--logo-ftr);
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 90px;
+}
+
+.ftr-links .ftr-links:hover,
+.ftr-links .ftr-links:focus {
+  color: var(--logo-color);
+}
+
+.ftr-links .ftr-links:active {
+  color: var(--logo-color);
+}
+.footer-background {
+  background-color: var(--ftr-background);
+  text-decoration: none;
+  width: 100%;
+  height: 252px;
+  margin-top: 94px;
+}
+.btn-types {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  text-align: center;
+}
+.btn-types:hover,
+.btn-types:focus {
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
+}
+.btn-types:active {
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
+}
+.button-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 10px;
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+.list-items-pf {
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 0 auto;
+}

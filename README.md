@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-https://github.com/Samcia/goit-markup-hw-02.git
+https://github.com/Samcia/goit-markup-hw-03.git

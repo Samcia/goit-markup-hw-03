@@ -8,18 +8,25 @@
   --ftr-background: #2f303a;
   --border-color: #eeeeee;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color);
 }
 .container {
-  height: 1200px;
-  width: 1600px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 .main-header {
   display: flex;
   max-width: 1600px;
   max-height: 80px;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -29,6 +36,7 @@ body {
   font-size: 26px;
   text-decoration: none;
   color: var(--color);
+  display: flex;
 }
 
 .logo-web {
@@ -37,10 +45,10 @@ body {
 
 .social-links {
   text-decoration: none;
-  display: flex;
+  display: inline-flex;
   list-style: none;
   font-weight: 500;
-  margin: 32px 371px 32px 93px;
+  align-items: center;
   text-decoration: none;
   column-gap: 46px;
   color: var(--color);
@@ -50,6 +58,8 @@ body {
   text-decoration: none;
   color: var(--color);
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 .link:hover,
 .link:focus,
@@ -87,15 +97,13 @@ body {
 .tel:active {
   color: var(--logo-color);
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .button-bg {
   background-color: var(--ftr-background);
-  width: 1600px;
-  height: 600px;
 }
 .header1-style {
   text-align: center;
@@ -107,8 +115,7 @@ body {
   color: var(--logo-ftr);
   line-height: 1.36;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-width: 1600px;
-  padding: 200px 452px 280px;
+  padding: 200px 452px 280px 452px;
   font-weight: 900;
   line-height: 1, 37;
 }
@@ -140,8 +147,9 @@ body {
 
 .parent-style {
   display: flex;
+  align-items: center;
   margin: 94px 215px;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 .solutions-desc {
   display: flex;
@@ -185,15 +193,12 @@ body {
   padding: 30px;
 }
 
-.team-style {
-  background-color: var(--team-background-color);
-  height: 648px;
-}
 .cards-style {
   display: flex;
   column-gap: 10px;
   justify-content: center;
   text-align: center;
+  background-color: var(--team-background-color);
 }
 .team-cards {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -224,7 +229,6 @@ body {
 .ftr-style {
   background-color: var(--ftr-background);
   text-decoration: none;
-  height: 252px;
 }
 
 .logo-ftr {
@@ -233,6 +237,7 @@ body {
   font-size: 36px;
   font-family: "Raleway";
   margin-left: 215px;
+  padding-top: 40px;
 }
 
 .ftr-address {
@@ -310,14 +315,16 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
   column-gap: 10px;
+  border-bottom: 1px solid var(--paragraph-color);
 }
 
 .projects-pf {
   display: flex;
   padding: 10px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);*/
   padding: 10px;
 }
 

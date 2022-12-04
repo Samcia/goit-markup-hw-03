@@ -7,6 +7,7 @@
   --team-background-color: #f5f4fa;
   --ftr-background: #2f303a;
   --border-color: #eeeeee;
+  --header-border: #ececec;
 }
 * {
   padding: 0;
@@ -23,9 +24,10 @@ body {
 
 .main-header {
   display: flex;
-  max-height: 80px;
   align-items: center;
-  justify-content: center;
+}
+.header-border {
+  border-bottom: 1px solid var(--header-border);
 }
 
 .logo {
@@ -334,8 +336,8 @@ body {
 .projects-pf {
   display: flex;
   padding: 10px;
-  /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
 

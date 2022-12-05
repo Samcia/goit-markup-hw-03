@@ -33,7 +33,6 @@ body {
 
 .logo {
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   color: var(--color);
@@ -107,17 +106,15 @@ body {
 .button-bg {
   background-color: var(--ftr-background);
 }
-.header1-style {
+.header1 {
   text-align: center;
   justify-content: center;
   display: flex;
   font-size: 44px;
   letter-spacing: 0.06em;
-  background-color: var(--ftr-background);
   color: var(--logo-ftr);
   line-height: 1.36;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 200px 452px 280px 452px;
   font-weight: 900;
   line-height: 1, 37;
 }
@@ -131,7 +128,7 @@ body {
   line-height: 1.9;
   display: flex;
   justify-content: center;
-  margin: -250px 700px 200px 700px;
+  margin: 30px auto;
   width: 200px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -167,9 +164,6 @@ body {
   display: flex;
   padding-bottom: 10px;
 }
-.h3pf {
-  padding: 20px 0 4px;
-}
 .paragraph-desc {
   font-size: 14px;
   text-decoration: none;
@@ -177,13 +171,19 @@ body {
   display: flex;
   text-align: left;
 }
+.team-bg {
+  background-color: var(--team-background-color);
+}
 
 .header2-style {
   font-size: 36px;
   color: var(--color);
   text-align: center;
   display: block;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.wwd {
+  padding-top: 0px;
 }
 .work-spaces {
   display: flex;
@@ -191,6 +191,7 @@ body {
   text-decoration: none;
   list-style: none;
   justify-content: center;
+  column-gap: 30px;
 }
 .work-area {
   text-decoration: none;
@@ -198,15 +199,13 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  padding: 30px;
 }
 
 .cards-style {
   display: flex;
-  column-gap: 10px;
+  column-gap: 30px;
   justify-content: center;
   text-align: center;
-  background-color: var(--team-background-color);
 }
 .team-cards {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -224,7 +223,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 30px 0 10px;
+  padding: 30px 99px 10px;
 }
 .workplace-style {
   font-size: 14px;
@@ -234,26 +233,27 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 10px 0;
+  margin-bottom: 30px;
 }
 .ftr-style {
   background-color: var(--ftr-background);
   text-decoration: none;
   display: block;
   align-items: center;
-  justify-content: center;
-  list-style: none;
 }
 
+.ftr-links {
+  list-style: none;
+}
 .logo-ftr {
   color: var(--logo-ftr);
   text-decoration: none;
   font-size: 36px;
   font-family: "Raleway";
-  margin-left: 170px;
   display: block;
   align-items: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-top: 60px;
 }
 
 .ftr-address {
@@ -263,7 +263,6 @@ body {
   list-style: none;
   display: block;
   align-items: center;
-  margin-left: 90px;
 }
 
 .ftr-address:hover,
@@ -274,7 +273,6 @@ body {
 
 .ftr-mail {
   color: var(--paragraph-color);
-  margin-left: 180px;
   padding-top: 10px;
   list-style: none;
   text-decoration: none;
@@ -288,11 +286,11 @@ body {
 }
 .ftr-tel {
   color: var(--paragraph-color);
-  margin-left: 180px;
   padding-top: 10px;
   display: block;
   list-style: none;
   text-decoration: none;
+  padding-bottom: 60px;
 }
 .ftr-tel:hover,
 .ftr-tel:focus,
@@ -303,12 +301,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  margin-top: 94px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   list-style: none;
   text-decoration: none;
-  column-gap: 10px;
+  column-gap: 8px;
 }
 .btn-types {
   font-size: 16px;
@@ -317,10 +313,11 @@ body {
   text-decoration: none;
   display: inline-flex;
   text-align: center;
-  padding: 9px;
+  padding: 6px 20px;
   justify-content: center;
   gap: 10px;
   border: 1px solid var(--border-color);
+  border-radius: 6%;
 }
 .btn-types:hover,
 .btn-types:focus {
@@ -331,22 +328,27 @@ body {
   background-color: var(--logo-color);
   color: var(--logo-ftr);
 }
-
 .cards-style-pf {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 10px;
-  padding-bottom: 30px;
+  gap: 30px;
 }
 
 .projects-pf {
   display: flex;
-  padding: 10px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   align-items: center;
   justify-content: center;
+}
+.img-pf {
+  vertical-align: bottom;
+}
+.sec-style {
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .paragraph-pf {
@@ -354,6 +356,6 @@ body {
   text-decoration: none;
   color: var(--paragraph-color);
   display: flex;
-  text-align: left;
-  padding-bottom: 20px;
+  align-items: center;
+  padding: 0 24px 20px;
 }

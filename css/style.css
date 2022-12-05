@@ -351,7 +351,7 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 .h3pf {
-  padding-left: 24px;
+  padding: 20px 24px 4px; 42px;
 }
 .paragraph-pf {
   font-size: 14px;

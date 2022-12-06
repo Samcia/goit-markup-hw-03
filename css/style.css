@@ -80,6 +80,7 @@ body {
   text-decoration: none;
   color: var(--paragraph-color);
   list-style: none;
+  padding: 50px;
 }
 .mail:hover,
 .mail:focus,
@@ -106,7 +107,11 @@ body {
 .button-bg {
   background-color: var(--ftr-background);
 }
-.header1 {
+.h1-styles {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.head1 {
   text-align: center;
   justify-content: center;
   display: flex;
@@ -181,6 +186,7 @@ body {
   text-align: center;
   display: block;
   margin-bottom: 50px;
+  border-radius: 4px;
 }
 .wwd {
   padding-top: 0px;
